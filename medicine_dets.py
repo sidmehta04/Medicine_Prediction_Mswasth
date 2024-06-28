@@ -67,7 +67,7 @@ mappings = {
     "norflox": "norfloxacin (200mg) + tinidazole (300mg)",
     "calcium +": "calcium 250 mg+vit d3",
 }
-min_months_required = 16
+min_months_required = 10
 import pandas as pd
 def has_sufficient_data(group):
     unique_months = pd.to_datetime(group["Date"]).dt.to_period("M").nunique()
