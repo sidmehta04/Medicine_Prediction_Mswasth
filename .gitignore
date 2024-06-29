@@ -1,0 +1,15 @@
+# Ignore all pickle files
+*.pkl
+
+# Ignore all logs
+*.log
+
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env

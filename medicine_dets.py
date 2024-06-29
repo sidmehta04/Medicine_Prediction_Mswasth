@@ -67,6 +67,7 @@ mappings = {
     "norflox": "norfloxacin (200mg) + tinidazole (300mg)",
     "calcium +": "calcium 250 mg+vit d3",
 }
+
 min_months_required = 16
 import pandas as pd
 def has_sufficient_data(group):

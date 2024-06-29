@@ -12,7 +12,6 @@ from medicine_dets import (
 )
 import re
 
-
 def parse_date(date_str):
     date_str = date_str.replace(" ", "-")
     date_str = date_str.replace("/", "-")

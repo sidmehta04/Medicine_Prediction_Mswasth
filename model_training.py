@@ -86,8 +86,11 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, param, random_stat
 
     return report
 def automate_forecasting(filtered_data, start_index=0, end_index=None, random_state=42):
+    print("inside automate forecasting.")
     results = []
     unique_clinics = filtered_data["Clinic Name"].unique()
+    print("processing clinics below")
+    print(unique_clinics)
     if end_index is None:
         end_index = len(unique_clinics)
 
