@@ -1,3 +1,5 @@
+
+# Streamlit components
 import streamlit as st
 import pandas as pd
 from data_extraction import extract_and_process_data
