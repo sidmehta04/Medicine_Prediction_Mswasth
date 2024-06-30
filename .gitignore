@@ -5,6 +5,8 @@
 *.log
 
 # Ignore Python cache directories
+catboost_info/
+
 __pycache__/
 *.py[cod]
 
@@ -13,3 +15,5 @@ __pycache__/
 
 # Ignore environment files
 .env
+*.csv
+*.zip
